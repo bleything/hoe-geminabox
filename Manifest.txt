@@ -1,0 +1,6 @@
+.rvmrc
+CHANGELOG.md
+Manifest.txt
+README.md
+Rakefile
+lib/hoe/geminabox.rb
