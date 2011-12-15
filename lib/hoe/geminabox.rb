@@ -18,7 +18,7 @@ module Hoe::Geminabox
       raise "You must specify a geminabox server in your Rakefile using self.geminabox_server=" unless self.geminabox_server
     end
 
-    task :release_to_geminabox => :check_geminabox_server do
+    task :release_to_geminabox => [:gem, :check_geminabox_server] do
       sh "gem inabox -g #{self.geminabox_server} #{self.pkg_path}.gem"
     end
   end
