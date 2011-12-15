@@ -19,7 +19,7 @@ module Hoe::Geminabox
     end
 
     task :release_to_geminabox => :check_geminabox_server do
-      puts "gem inabox -g #{self.geminabox_server} #{self.pkg_path}.gem"
+      sh "gem inabox -g #{self.geminabox_server} #{self.pkg_path}.gem"
     end
   end
 end
