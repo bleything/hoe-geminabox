@@ -6,7 +6,7 @@
 #
 
 module Hoe::Geminabox
-  VERSION = "0.2.0"
+  VERSION = "0.3.0"
 
   attr_accessor :geminabox_server
 

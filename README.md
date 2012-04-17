@@ -11,7 +11,8 @@ A small [hoe] plugin that allows you to push your gems to [geminabox].
 
 ## FEATURES:
 
-* `rake release` pushes to the [geminabox] instance you've configured using 
+* `rake release` pushes to the [geminabox] instance you've configured using
+  `self.geminabox_server = "..."`
 
 ## REQUIREMENTS:
 
@@ -25,7 +26,7 @@ A small [hoe] plugin that allows you to push your gems to [geminabox].
 
 (The MIT License)
 
-Copyright (c) 2011 Ben Bleything <ben@bleything.net>
+Copyright (c) 2011-2012 Ben Bleything <ben@bleything.net>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
