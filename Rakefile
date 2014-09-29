@@ -10,5 +10,5 @@ Hoe.spec 'hoe-geminabox' do
   self.readme_file  = 'README.md'
 
   ### dependencies!
-  self.extra_deps     << ['geminabox', '~> 0.3.3']
+  self.extra_deps     << ['geminabox', '>= 0.3.3']
 end
