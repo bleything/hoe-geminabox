@@ -22,6 +22,13 @@ A small [hoe] plugin that allows you to push your gems to [geminabox].
 
     $ [sudo] gem install hoe-geminabox
 
+## ACKNOWLEDGEMENTS:
+
+The following folks have contributed code, testing, and advice. They're rad.
+
+* Rafał Bigaj
+* Austin Ziegler
+
 ## LICENSE:
 
 (The MIT License)
